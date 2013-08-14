@@ -1,4 +1,4 @@
-/// @file %FILE%  @date %MONTH%/%DAY%/%YEAR
+/// @file %FILE%  @date %MONTH%/%DAY%/%YEAR%
 /// @author %MAIL%
 
 #ifndef __%GUARD%__
