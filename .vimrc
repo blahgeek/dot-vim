@@ -83,6 +83,7 @@ set statusline=%.43(%f%m%r%h\ %{&ff},%{&fileencoding}%Y%)\ %=%-13.13(%b,0x%04.B%
 set titlestring=%.43(%f%m%r%h\ %{&ff},%{&fileencoding}%Y%)\ %=%-13.13(%b,0x%04.B%)%-8.(%l,%c%)\ %P
 set title
 nnoremap <ESC><ESC> :nohlsearch<CR>
+set ttimeoutlen=0
 
 set guifont=Inconsolata\ 17
 

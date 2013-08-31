@@ -81,7 +81,7 @@ let s:delimiterMap = {
     \ 'applescript': { 'left': '--', 'leftAlt': '(*', 'rightAlt': '*)' },
     \ 'armasm': { 'left': ';' },
     \ 'asm68k': { 'left': ';' },
-    \ 'asm': { 'left': ';', 'leftAlt': '#' },
+    \ 'asm': { 'left': '#' },
     \ 'asn': { 'left': '--' },
     \ 'aspvbs': { 'left': '''', 'leftAlt': '<!--', 'rightAlt': '-->' },
     \ 'asterisk': { 'left': ';' },
