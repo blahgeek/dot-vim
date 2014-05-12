@@ -40,43 +40,21 @@ if has("autocmd")
         \ endif
 endif
 
-inoremap  ,  ,<Space>
 
-inoremap <C-l> <Right>
-inoremap <C-k> <Up>
-inoremap <C-j> <Down>
-inoremap <C-h> <Left>
+"vnoremap ( s()<Esc>P<Right>%
+"vnoremap [ s[]<Esc>P<Right>%
+"vnoremap { s{}<Esc>P<Right>%
 
-inoremap ( ()<Left>
-inoremap [ []<Left>
-inoremap { {}<Left>
-
-vnoremap ( s()<Esc>P<Right>%
-vnoremap [ s[]<Esc>P<Right>%
-vnoremap { s{}<Esc>P<Right>%
-
-inoremap  <buffer>  {<CR>    {<CR>}<Esc>O
-vnoremap  <buffer>  {<CR>   S{<CR>}<Esc>Pk=iB
-
-xnoremap  '  s''<Esc>P<Right>
-xnoremap  "  s""<Esc>P<Right>
-xnoremap  `  s``<Esc>P<Right>
+"xnoremap  '  s''<Esc>P<Right>
+"xnoremap  "  s""<Esc>P<Right>
+"xnoremap  `  s``<Esc>P<Right>
 "
-"-------------------------------------------------------------------------------
-" Change the working directory to the directory containing the current file
-"-------------------------------------------------------------------------------
-if has("autocmd")
-  autocmd BufEnter * :lchdir %:p:h
-endif
-
 set nu
 
 "for display chinese text
 "default fileencodings=ucs-bom,utf-8,latin1
 set fileencodings=ucs-bom,utf-8,gb2312,gbk,gb18030,latin1
 set clipboard=unnamedplus
-
-nnoremap K kJ
 
 set laststatus=1
 set statusline=%.43(%f%m%r%h\ %{&ff},%{&fileencoding}%Y%)\ %=%-13.13(%b,0x%04.B%)%-8.(%l,%c%)\ %P
