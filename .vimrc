@@ -54,12 +54,10 @@ set nu
 "for display chinese text
 "default fileencodings=ucs-bom,utf-8,latin1
 set fileencodings=ucs-bom,utf-8,gb2312,gbk,gb18030,latin1
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 set laststatus=1
 set statusline=%.43(%f%m%r%h\ %{&ff},%{&fileencoding}%Y%)\ %=%-13.13(%b,0x%04.B%)%-8.(%l,%c%)\ %P
-set titlestring=%.43(%f%m%r%h\ %{&ff},%{&fileencoding}%Y%)\ %=%-13.13(%b,0x%04.B%)%-8.(%l,%c%)\ %P
-set title
 nnoremap <ESC><ESC> :nohlsearch<CR>
 set ttimeoutlen=0
 
@@ -71,3 +69,4 @@ set scrolloff=5
 let g:indentLine_color_term = 0
 let g:email = "i@BlahGeek.com"
 let g:solarized_termtrans = 1
+let g:ruby_path = "/usr/bin/ruby"
