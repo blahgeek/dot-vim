@@ -64,6 +64,7 @@ set ttimeoutlen=0
 set guifont=Inconsolata\ 17
 
 set expandtab
+set mouse=a
 set scrolloff=5
 
 let g:indentLine_color_term = 0
