@@ -67,6 +67,9 @@ set expandtab
 set mouse=a
 set scrolloff=5
 
+set background=dark
+colorscheme solarized
+
 let g:indentLine_color_term = 0
 let g:email = "i@BlahGeek.com"
 let g:ruby_path = "/usr/bin/ruby"
