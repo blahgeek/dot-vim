@@ -38,6 +38,7 @@ if has("autocmd")
         \ if line("'\"") > 0 && line("'\"") <= line("$") |
         \   exe "normal! g`\"" |
         \ endif
+  autocmd BufRead,BufNewFile,BufEnter *.cmake,CMakeLists.txt setf cmake
 endif
 
 
